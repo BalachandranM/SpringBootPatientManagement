@@ -7,7 +7,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-//main method
 @SpringBootApplication
 @ComponentScan(value= {"com","com.beans","com.controller","com.dao","com.exceptions","com.interfaces","com.services"})
 @EnableTransactionManagement
